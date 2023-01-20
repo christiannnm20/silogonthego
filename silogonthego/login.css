@@ -1,0 +1,142 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(silogbg3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    left: 70px;
+    top: 30px;
+}
+
+.image{
+    position: absolute;
+    height: 650px;
+    width: 800px;
+    right: 100px;
+    top: 200px;
+    border:10px solid blue;
+    border-radius: 15px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 80px;
+    align-content: center;
+    
+}
+
+.nav-bar .title{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    
+}
+
+
+.menu li{
+    list-style: none;
+    display: inline-block;   
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: .4s ease;  
+}
+
+.menu li a:hover{
+    color: white;
+    background: blue;
+    border-radius: 10px;
+    padding: 5px 10px;         
+}
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup-box{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 80px;
+}
+
+.login-box{
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: 3px;
+    margin-top: 150px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+form{
+    width: 300px;
+    margin-left:20px;   
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.para-2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.para-2 a{
+    color: #189AB4;
+}
